@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail_Activity">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/mTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+    <!-- Location TextView -->
+    <TextView
+        android:id="@+id/mLocation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Location"
+        android:textSize="18sp"
+        android:textColor="#494444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTitle"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Salary TextView -->
+    <TextView
+        android:id="@+id/mSalary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Salary"
+        android:textSize="18sp"
+        android:textColor="#494444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mLocation"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Phone TextView -->
+    <TextView
+        android:id="@+id/mPhone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Phone"
+        android:textSize="18sp"
+        android:textColor="#3F51B5"
+        android:autoLink="phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mSalary"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Bookmark Button -->
+
+    <!-- Bottom Navigation View -->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bookmar"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/button_background"
+        android:text="Bookmark"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.889"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mPhone"
+        app:layout_constraintVertical_bias="0.731" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:menu="@menu/bottom_nav"
+        app:itemIconTint="#494444"
+        app:itemTextColor="#494444"
+        app:background="@color/white"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

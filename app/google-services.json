@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1035629812097",
+    "project_id": "job-search-app-b8d04",
+    "storage_bucket": "job-search-app-b8d04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035629812097:android:cd1bab503e994cf7417080",
+        "android_client_info": {
+          "package_name": "com.example.planetsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJM_-j4gquqv1vqjeysmIVP_hjJMZ33tE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
