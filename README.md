@@ -24,11 +24,11 @@ JobApp is an Android application that allows users to search for jobs, view job 
 - **ConstraintLayout**: For designing the UI.
 
 ## Screenshots
+![image](https://github.com/user-attachments/assets/0d2aa8c2-d356-407a-ab1a-ac0a6a1f8cd0)
+![image](https://github.com/user-attachments/assets/f19f1a45-4b22-4a2f-be38-e309fa5d6b0e)
+![image](https://github.com/user-attachments/assets/d8b152c4-36ec-4427-ae24-4248c6b42d00)
+![image](https://github.com/user-attachments/assets/b193734b-c374-4bc2-9663-427b86314815)
 
-![image](https://github.com/user-attachments/assets/94ec4965-8a62-4f5c-a2b7-db4f0ed339d9)
-![image](https://github.com/user-attachments/assets/b9c8d1f1-96c8-4269-943f-93ebe481c393)
-![image](https://github.com/user-attachments/assets/5047052e-1cb1-449e-b95d-51b4572f9350)
-![image](https://github.com/user-attachments/assets/bbf65f85-6b57-4b44-9f72-d6dc5162cbe6)
 
 ## Video
 
